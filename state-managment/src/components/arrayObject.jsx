@@ -19,7 +19,7 @@ const Comp = () => {
     }
 
   return (
-    <div className='p-10 w-full h-[100vh] bg-gray-800 text-white flex flex-col items-center justify-center'>
+    <div className='p-10 w-full h-screen bg-gray-800 text-white flex flex-col items-center justify-center'>
         <h1 className='text-white text-2xl font-semibold px-10 py-3 rounded-[10px]'>{user.name}, {user.age}</h1>
         <h1></h1>
         <div className='flex gap-8'>
