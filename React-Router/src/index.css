@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.info{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.75rem;
+    line-height: 1;
+    white-space: nowrap;
+    text-transform: capitalize;
+}
